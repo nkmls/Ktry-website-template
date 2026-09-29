@@ -1,0 +1,42 @@
+/* Ohita Tailwind Preflight otsikoille */
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+article h1,
+article h2,
+article h3,
+.prose h1,
+.prose h2,
+.prose h3 {
+  font-size: revert;      /* palauttaa selaimen oletuskoon */
+  font-weight: revert;    /* palauttaa selaimen oletuslihavuuden */
+}
+
+/* Tai suoraan omat koot (suositus) */
+.entry-content h1,
+article h1 {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.entry-content h2,
+article h2 {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.entry-content h3,
+article h3 {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
